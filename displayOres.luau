@@ -77,7 +77,7 @@ updateLabels()
 local layout = Instance.new("UIListLayout")
 layout.HorizontalAlignment = Enum.HorizontalAlignment.Left
 layout.VerticalAlignment = Enum.VerticalAlignment.Top
-layout.SortOrder = Enum.LayoutOrder.Name
+layout.SortOrder = Enum.SortOrder.Name
 layout.Parent = gui
 
 _G.SCRIPTLOADED = {}
